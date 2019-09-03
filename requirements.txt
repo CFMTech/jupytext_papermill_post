@@ -1,0 +1,11 @@
+# Notebook dependencies
+plotly
+world_bank_data
+
+# Tools used in the article
+jupytext>=1.2
+papermill>=1.1
+nbconvert
+
+# TOC extension for Binder
+jupyter_contrib_nbextensions
