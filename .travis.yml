@@ -1,0 +1,10 @@
+language: python
+python:
+  - "2.7"
+  - "3.5"
+  - "3.6"
+install:
+  - pip install -r requirements.txt
+script:
+  - # Test the (Python) notebook in the current Python environment
+  - jupytext world_facts.md --set-kernel - --execute
