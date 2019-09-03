@@ -1,0 +1,7 @@
+.idea
+.vscode
+
+*.pyc
+
+*.ipynb
+.ipynb_checkpoints
