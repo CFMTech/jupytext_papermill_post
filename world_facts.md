@@ -13,7 +13,7 @@ jupyter:
     name: python3
 ---
 
-In this notebook we plot the world population
+In this notebook we plot the world population and the gross domestic product per country
 
 ```python tags=["parameters"]
 year = 2000
@@ -30,4 +30,10 @@ offline.init_notebook_mode()
 
 ```python
 sundial_plot('SP.POP.TOTL', 'World Population', year)
+```
+
+## Gross Domestic Product (current USD)
+
+```python
+sundial_plot('NY.GDP.MKTP.CD', 'Gross Domestic Product', year)
 ```
