@@ -2,5 +2,8 @@
 
 set -ex
 
+# Install the project requirements (in parent folder)
+pip install -r ../requirements.txt
+
 # Install the bash kernel
 python -m bash_kernel.install
