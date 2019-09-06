@@ -9,3 +9,6 @@ nbconvert
 
 # TOC extension for Binder
 jupyter_contrib_nbextensions
+
+# README.md as a Bash notebook
+bash_kernel
