@@ -3,5 +3,5 @@
 
 *.pyc
 
-*.ipynb
+world_facts.ipynb
 .ipynb_checkpoints
