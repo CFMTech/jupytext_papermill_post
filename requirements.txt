@@ -6,6 +6,7 @@ world_bank_data
 jupytext>=1.2
 papermill>=1.1
 nbconvert>=5.5
+jupyter_core>=4.5
 
 # TOC extension for Binder
 jupyter_contrib_nbextensions
