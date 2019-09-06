@@ -9,3 +9,6 @@ install:
 script:
   - # Test the (Python) notebook in the current Python environment
   - jupytext world_facts.md --set-kernel - --execute
+  - # Test the (Bash) README
+  - python -m bash_kernel.install
+  - jupytext README.md --execute
