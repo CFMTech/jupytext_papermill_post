@@ -1,5 +1,5 @@
 # Notebook dependencies
-plotly
+plotly>=4.0
 world_bank_data
 
 # Tools used in the article

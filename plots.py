@@ -1,7 +1,6 @@
 import pandas as pd
 import world_bank_data as wb
 import plotly.graph_objs as go
-import plotly.offline as offline
 
 
 def sundial_plot(metric='SP.POP.TOTL', title='World Population', year=2000):
@@ -33,7 +32,7 @@ def sundial_plot(metric='SP.POP.TOTL', title='World Population', year=2000):
 
     all_levels = pd.concat([level1, level2, level3], axis=0).reset_index(drop=True)
 
-    offline.iplot(go.Figure(
+    return go.Figure(
         data=[go.Sunburst(hoverinfo='text', **all_levels)],
         layout=go.Layout(title='{} (World Bank, {})'.format(title, year),
-                         width=800, height=800)))
+                         width=800, height=800))
