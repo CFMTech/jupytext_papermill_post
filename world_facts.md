@@ -20,10 +20,7 @@ year = 2000
 ```
 
 ```python
-import plotly.offline as offline
 from plots import sundial_plot
-
-offline.init_notebook_mode()
 ```
 
 ## World Population
