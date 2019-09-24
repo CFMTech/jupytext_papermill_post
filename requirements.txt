@@ -4,7 +4,7 @@ world_bank_data
 
 # Tools used in the article
 jupytext>=1.2
-papermill>=1.1
+papermill>=1.2
 nbconvert>=5.5
 jupyter_core>=4.5
 
